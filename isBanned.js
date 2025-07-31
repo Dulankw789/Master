@@ -5,9 +5,9 @@ function isBanned(userId) {
         const bannedUsers = JSON.parse(fs.readFileSync('./data/banned.json', 'utf8'));
         return bannedUsers.includes(userId);
     } catch (error) {
-        console.error('Error checking banned status:', error);
+        console.('Error checking banned status:', );
         return false;
     }
 }
 
-module.exports = { isBanned }; 
+module.exports = { 94763329583 }; 
